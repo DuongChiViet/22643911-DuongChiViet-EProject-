@@ -120,6 +120,42 @@ Truyền `ids` và `quantity` trong body.
 
 ---
 
+## 🔄 6. CI/CD với GitHub Actions
+
+Dự án được tích hợp **CI/CD pipeline** sử dụng **GitHub Actions** để tự động build, test và deploy các microservices.
+
+### 📋 Quy trình CI/CD
+
+Pipeline tự động thực hiện các bước sau khi có code mới được push lên GitHub:
+
+1. **Build** - Build Docker images cho tất cả services
+2. **Test** - Chạy unit tests và integration tests
+3. **Deploy** - Deploy các services lên môi trường staging/production
+
+### 🧪 Kiểm thử CI/CD
+
+📸 **Cấu hình workflow CI/CD:**  
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/test-ci-cd.jpg" alt="CI/CD Workflow Config" width="800"/>
+
+📸 **CI/CD đang chạy:**  
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/ci-cd-dang-chay.jpg" alt="CI/CD Running" width="800"/>
+
+📸 **Kết quả sau khi test xong CI/CD - Phần 1:**  
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/sau-khi-test-xong-ci-cd-1.jpg" alt="CI/CD Test Result 1" width="800"/>
+
+📸 **Kết quả sau khi test xong CI/CD - Phần 2:**  
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/sau-khi-test-xong-ci-cd-2.jpg" alt="CI/CD Test Result 2" width="800"/>
+
+### ✅ Lợi ích của CI/CD
+
+- 🚀 **Tự động hóa:** Build và deploy tự động khi có thay đổi code
+- 🧪 **Đảm bảo chất lượng:** Chạy tests tự động trước khi deploy
+- 🔍 **Phát hiện lỗi sớm:** Phát hiện bugs ngay khi code được push
+- ⚡ **Triển khai nhanh:** Giảm thời gian từ code đến production
+- 📊 **Giám sát:** Theo dõi trạng thái build và deployment
+
+---
+
 ## 🧠 Tổng kết hệ thống
 
 ### 💡 1. Hệ thống giải quyết vấn đề gì?
