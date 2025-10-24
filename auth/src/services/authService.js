@@ -21,19 +21,14 @@ class AuthService {
 
   async login(username, password) {
     const user = await this.userRepository.getUserByUsername(username);
-
     if (!user) {
       return { success: false, message: "Invalid username or password" };
     }
-
     const isMatch = await bcrypt.compare(password, user.password);
-
     if (!isMatch) {
       return { success: false, message: "Invalid username or password" };
     }
-
     const token = jwt.sign({ id: user._id, username: username }, config.jwtSecret);
-
     return { success: true, token };
   }
 
