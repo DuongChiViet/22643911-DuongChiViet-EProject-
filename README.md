@@ -136,16 +136,16 @@ Pipeline tự động thực hiện các bước sau khi có code mới được
 ### 🧪 Kiểm thử CI/CD
 
 📸 **Cấu hình workflow CI/CD:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/test-ci-cd.jpg" alt="CI/CD Workflow Config" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/test-ci-cd.jpg" alt="CI/CD Workflow Config" width="800"/>
 
 📸 **CI/CD đang chạy:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/ci-cd-dang-chay.jpg" alt="CI/CD Running" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/ci-cd-dang-chay.jpg" alt="CI/CD Running" width="800"/>
 
 📸 **Kết quả sau khi test xong CI/CD - Phần 1:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/sau-khi-test-xong-ci-cd-1.jpg" alt="CI/CD Test Result 1" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/sau-khi-test-xong-ci-cd-1.jpg" alt="CI/CD Test Result 1" width="800"/>
 
 📸 **Kết quả sau khi test xong CI/CD - Phần 2:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/sau-khi-test-xong-ci-cd-2.jpg" alt="CI/CD Test Result 2" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/sau-khi-test-xong-ci-cd-2.jpg" alt="CI/CD Test Result 2" width="800"/>
 
 ### ✅ Lợi ích của CI/CD
 
