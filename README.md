@@ -29,14 +29,14 @@ docker-compose up
 👤 Tài khoản: `guest` / `guest`
 
 📸 **Giao diện quản lý RabbitMQ**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/rabitmq.jpg" alt="RabbitMQ Setup" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/rabitmq.jpg" alt="RabbitMQ Setup" width="800"/>
 
 ---
 
 ## 🧱 2. Khởi tạo các Container
 
 📸 **Tất cả các Container đang chạy**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/allcontainer.jpg" alt="All Containers" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/allcontainer.jpg" alt="All Containers" width="800"/>
 
 ---
 
@@ -45,7 +45,7 @@ docker-compose up
 Cập nhật file cấu hình để định tuyến đến đúng các service (Auth, Product, Order).
 
 📸 **Cấu hình API Gateway**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/cauhinhapi-gateway.jpg" alt="Config API Gateway" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/cauhinhapi-gateway.jpg" alt="Config API Gateway" width="800"/>
 
 ---
 
@@ -54,7 +54,7 @@ Cập nhật file cấu hình để định tuyến đến đúng các service (
 Thêm logic ký **JWT Token** trong Auth Service để xác thực người dùng.
 
 📸 **Logic tạo JWT**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/taojwt.jpg" alt="JWT Logic" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/taojwt.jpg" alt="JWT Logic" width="800"/>
 
 ---
 
@@ -65,13 +65,13 @@ Thêm logic ký **JWT Token** trong Auth Service để xác thực người dùn
 `POST /auth/api/v1/register`
 
 📸 **Kiểm thử đăng ký**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-thu-dang-ky.jpg" alt="Register Test" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-thu-dang-ky.jpg" alt="Register Test" width="800"/>
 
 📦 **Kết quả trong MongoDB sau khi đăng ký:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-tra-mongo-sau-khi-dang-ky.jpg" alt="MongoDB Register Result" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-tra-mongo-sau-khi-dang-ky.jpg" alt="MongoDB Register Result" width="800"/>
 
 📸 **Minh chứng test đăng ký trên Docker:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/minh-chung-test-dang-ky-tren-docker.jpg" alt="Docker Register Test" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/minh-chung-test-dang-ky-tren-docker.jpg" alt="Docker Register Test" width="800"/>
 
 ---
 
@@ -80,7 +80,7 @@ Thêm logic ký **JWT Token** trong Auth Service để xác thực người dùn
 `POST /auth/api/v1/login`
 
 📸 **Kiểm tra đăng nhập và lấy token**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-tra-dang-nhap-lay-token.jpg" alt="Login Test" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-tra-dang-nhap-lay-token.jpg" alt="Login Test" width="800"/>
 
 ✅ Nhận **JWT Token**
 
@@ -97,13 +97,13 @@ Authorization: Bearer <JWT_TOKEN>
 ```
 
 📸 **Kiểm thử thêm sản phẩm:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-thu-them-san-pham.jpg" alt="Add Product Test" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-thu-them-san-pham.jpg" alt="Add Product Test" width="800"/>
 
 � **Truyền token và thêm thành công sản phẩm:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/truyen-token-va-them-thanh-cong-san-pham.jpg" alt="Add Product Success" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/truyen-token-va-them-thanh-cong-san-pham.jpg" alt="Add Product Success" width="800"/>
 
 📦 **Kết quả trong MongoDB sau khi thêm sản phẩm:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/ket-qua-mongo-sau-khi-them-san-pham.jpg" alt="MongoDB Product Result" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/ket-qua-mongo-sau-khi-them-san-pham.jpg" alt="MongoDB Product Result" width="800"/>
 
 ---
 
@@ -114,10 +114,10 @@ Authorization: Bearer <JWT_TOKEN>
 Truyền `ids` và `quantity` trong body.
 
 📸 **Kiểm thử mua sản phẩm:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-thu-mua-san-pham.jpg" alt="Buy Product Test" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/kiem-thu-mua-san-pham.jpg" alt="Buy Product Test" width="800"/>
 
 ✅ **Kết quả sau khi mua sản phẩm thành công:**
-`<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/ket-qua-sau-khi-mua-san-pham.jpg" alt="Buy Product Result" width="800"/>`
+<img src="https://raw.githubusercontent.com/DuongChiViet/22643911-DuongChiViet-EProject-/main/public/img/ket-qua-sau-khi-mua-san-pham.jpg" alt="Buy Product Result" width="800"/>
 
 ---
 
