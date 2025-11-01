@@ -73,9 +73,9 @@ class ProductController {
       res.status(500).json({ message: "Server error" });
     }
   }
-  async getID(req,res){
+  async getID(req, res){
     const id = req.params.id;
-    const rs = await Product.findOne({_id: id});
+    const rs = await Product.findOne({_id: id})
     return res.status(200).json(rs);
   }
 }
